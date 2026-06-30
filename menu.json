@@ -1,0 +1,62 @@
+{
+  "menu": [
+    {
+      "categoryId": "antipasti",
+      "categoryName": "Antipasti",
+      "items": [
+        {
+          "name": "Tartare di Fassona",
+          "ingredients": "Carne cruda di Fassona piemontese, tuorlo d'uovo confit, scaglie di tartufo nero, senape antica.",
+          "price": "18.00",
+          "piccante": false,
+          "novita": false,
+          "piattoDelGiorno": true
+        },
+        {
+          "name": "Bruschetta Nduja e Stracciatella",
+          "ingredients": "Pane di Altamura tostato, 'nduja di Spilinga, stracciatella pugliese, basilico fresco.",
+          "price": "12.00",
+          "piccante": true,
+          "novita": true,
+          "piattoDelGiorno": false
+        }
+      ]
+    },
+    {
+      "categoryId": "primi",
+      "categoryName": "Primi Piatti",
+      "items": [
+        {
+          "name": "Spaghettoni Carabineros",
+          "ingredients": "Spaghettoni trafilati al bronzo, bisque di gamberi rossi Carabineros, datterino giallo, polvere di pistacchio.",
+          "price": "24.00",
+          "piccante": false,
+          "novita": false,
+          "piattoDelGiorno": false
+        }
+      ]
+    },
+    {
+      "categoryId": "pizze",
+      "categoryName": "Pizze dal Forno",
+      "items": [
+        {
+          "name": "Margherita Sbagliata",
+          "ingredients": "Pomodoro San Marzano DOP, mozzarella di bufala campana, riduzione di basilico, olio EVO.",
+          "price": "14.00",
+          "piccante": false,
+          "novita": false,
+          "piattoDelGiorno": false
+        },
+        {
+          "name": "Diavola 2.0",
+          "ingredients": "Pomodoro, fior di latte, spianata calabra piccante, fili di peperoncino, miele al tartufo.",
+          "price": "16.00",
+          "piccante": true,
+          "novita": false,
+          "piattoDelGiorno": false
+        }
+      ]
+    }
+  ]
+}
