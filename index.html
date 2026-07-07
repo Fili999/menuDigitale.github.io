@@ -3,90 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Nome Cognome | Link in Bio</title>
+    <title>Menu | Ristorante</title>
     
-    <!-- Google Fonts: Poppins -->
+    <!-- Google Fonts: Playfair Display (Titoli) e Lato (Testi) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     
-    <!-- FontAwesome per le icone -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- CSS Esterno -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Background animato (Senza impatto sulle performance) -->
-    <div class="bg-orb orb-1"></div>
-    <div class="bg-orb orb-2"></div>
+    <!-- Header Emozionale -->
+    <header class="hero">
+        <div class="video-overlay"></div>
+        <!-- IMPORTANTE: playsinline è cruciale per i video su iPhone/iOS -->
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="https://assets.mixkit.co/videos/preview/mixkit-fire-in-a-wood-oven-4265-large.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <h1 class="logo">L'Essenza</h1>
+            <p class="subtitle">Cucina & Fuoco</p>
+        </div>
+    </header>
 
-    <div class="container">
-        
-        <!-- HEADER: Profilo -->
-        <header class="profile-section animate-item">
-            <div class="profile-img-container">
-                <img src="icona.png" alt="Immagine Profilo" class="profile-img">
-            </div>
-            <h1 class="profile-name">Nome Cognome</h1>
-            <p class="profile-bio">Content Creator</p>
-        </header>
+    <!-- Navigazione Sticky -->
+    <nav class="category-nav" id="categoryNav">
+        <!-- Generato da JS -->
+    </nav>
 
-        <!-- MAIN: Bottoni e Contenuti -->
-        <main class="links-section">
-            
-           <!-- Bottone Principale Evidenziato (Lasciato invariato) -->
-            <a href="https://tuosito.com" class="link-btn primary-btn animate-item">
-                <i class="fa-solid fa-globe"></i>
-                <span>Visita il mio Sito Ufficiale</span>
-            </a>
+    <!-- Contenitore Principale Menu -->
+    <main class="menu-container" id="menuContainer">
+        <!-- Generato da JS -->
+    </main>
 
-            <!-- Nuovo Bottone Canale YouTube -->
-            <a href="https://youtube.com/@tuocanale" class="link-btn youtube-btn animate-item">
-                <i class="fa-brands fa-youtube"></i>
-                <span>Il mio Canale YouTube</span>
-            </a>
-
-            <!-- Nuovo Bottone Twitch -->
-            <a href="https://twitch.tv/tuocanale" class="link-btn twitch-btn animate-item">
-                <i class="fa-brands fa-twitch"></i>
-                <span>Seguimi su Twitch</span>
-            </a>
-
-            <!-- Sezione YouTube Card -->
-            <div class="youtube-card-wrapper animate-item">
-                <h3 class="section-title">Ultimo Video</h3>
-                <a href="https://youtube.com" class="youtube-card">
-                    <div class="thumbnail-container">
-                        <img src="logo.webp" alt="Ultimo video YouTube">
-                        <div class="play-overlay">
-                            <i class="fa-solid fa-play"></i>
-                        </div>
-                    </div>
-                    <div class="card-content">
-                        <h4>Il tuo video YouTube</h4>
-                        <p class="cta-text">Guarda ora <i class="fa-solid fa-arrow-right"></i></p>
-                    </div>
-                </a>
-            </div>
-
-        </main>
-
-        <!-- FOOTER: Social e Copyright -->
-        <footer class="footer-section animate-item">
-            <div class="social-icons">
-                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
-                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
-            </div>
-            <p class="copyright">&copy; 2026 Tutti i diritti riservati.</p>
-        </footer>
-
-    </div>
-
-    <!-- JS Esterno -->
     <script src="script.js"></script>
 </body>
 </html>
